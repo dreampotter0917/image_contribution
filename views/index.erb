@@ -1,0 +1,81 @@
+<div class="top">
+
+<% unless session[:user] %>
+ <a href="/signin">ログイン</a>  <a href="/signup">新規登録</a> <br>
+ <h1>未ログイン</h1>
+<% else %>
+ <a href="/signout">ログアウト</a>
+<h2><%= User.find(session[:user]).mail %>さん、こんにちは</h2>
+
+
+
+<div class="senter">
+  <form action="/new" name="toukou" method="post" enctype="multipart/form-data" class="form">
+    <h3>名前<span class="asterisk">*</span><br>
+    <input type="text" name="user_name" class="utikomi"></h3>
+    <h3>本文<span class="asterisk" class="utikomi">*</span><br>
+    <textarea name="body" cols="30" rows="3" maxlength="100" wrap="hard" placeholder="50字以内で入力してください。 "></textarea></h3>
+
+<label for="file_photo">
+	<a class="btn-flat-logo"><i class="fa fa-chevron-right"></i>写真を選択
+	<input type="file" id="file_photo" style="display:none;" name="file"></a>
+</label>
+<br>
+     <a href="javascript:document.toukou.submit()" class="btn-gradient-3d-simple">投稿</a>
+  </form>
+</div>
+
+
+
+ <ul>
+  <% @contents.each do |content| %>
+   </ul>
+
+   </div>
+
+<div class="box9">
+     <p><%= content.name %></p>
+     <p><%= content.body %></p>
+     <% unless content.img.empty? %>
+     <p><img src="<%=  content.img %>" width="200"></p>
+     <% end %>
+
+
+<div class="yoko">
+
+   <form name="yoki" action="/good/<%= content.id %>" method="post">
+   <input type="submit" class="square_btn" value="いいね！">
+   <span class="maru size_normal red1"><%= content.good %></span>
+</form>
+
+
+   <form name="dame" action="/bad/<%= content.id %>" method="post">
+   <span class="maru size_normal blue2"><%= content.bad %></span>
+   <input type="submit" class="square_btn2" value="うーん、、">
+
+</form>
+
+</div>
+
+<div class="yoko2">
+
+ <form name=hennshyuu action="/edit/<%= content.id %>" method="post">
+   <input type="submit" class="square_btn" value=" 編集">
+ </form>
+
+ <span>
+  <form action="/delete/<%= content.id %>" method="post">
+ <button type="submit" class="btn btn-danger ">
+  <i class="far fa-trash-alt"></i>
+</button>
+ </form>
+ </span>
+
+</div>
+
+  </>
+
+  <% end %>
+  <% end %>
+
+  </div>

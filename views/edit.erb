@@ -1,0 +1,11 @@
+ <div class="edit">
+
+ <form action="/renew/<%= @content.id %>" method="post">
+   <p>名前<span class="asterisk">*</span><br>
+   <input type="text" name="user_name" value="<%= @content.name %>"></p>
+   <p>本文<span class="asterisk">*</span><br>
+   <input type="tekt" name="body" value="<% @content.body %>"></p>
+  <input type="submit" class="btn-top-radius" value=" 編集完了">
+ </form>
+
+ </div>

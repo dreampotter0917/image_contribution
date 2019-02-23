@@ -1,0 +1,306 @@
+
+
+.top {
+    text-align: center;
+    background-image: url("flower.jpg");
+    padding: 15em;
+    height: 780px;
+}
+
+.asterisk {
+	margin: 0 0 0 0.2em;
+	color: #f5637a;
+}
+
+.left{
+  text-align: left;
+}
+
+h1{
+  color: white;
+  font-size: 30px
+}
+
+h2 {
+    color:white;
+    font-size: 25px;
+
+}
+
+
+
+h3 {
+  color:white;
+  font-size: medium;
+  text-align: left;
+}
+
+p {
+    color:brown;
+    font-size: large;
+    font-weight: 200;
+    text-align: center;
+    font-family: font-demo1;
+}
+
+
+a {
+    color: blue;
+    font-size: medium;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.utikomi{
+  width: 300px;
+  height: 40px;
+  color: black;
+}
+
+
+textarea{
+  width: 300px;
+  color: black;
+  height: 100px;
+}
+
+
+.yoko
+{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 150px;
+}
+
+.yoko2
+{
+  float: left;
+  align-items: center;
+}
+
+.yoko form  span{
+  vertical-align: middle;
+}
+
+.box9 {
+    padding: 0.5em 1em;
+    color: #ff7d6e;
+    background-color: 	#F7D4BC;
+    border-top: solid 10px #F67E7D;
+}
+.box9 p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.maru {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  flex-flow: column;
+  vertical-align: top;
+}
+/* 円の大きさ */
+.size_normal{
+  width: 60px;
+  height: 60px;
+}
+/* 文字の大きさ */
+.letter3 {
+  font-size: 3em;
+  line-height: 1.5em;
+}
+/* 円と文字の色 */
+.red1 {
+  color: #DF013A;
+  border: 4px solid #D5573B;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.blue2 {
+  color:blue;
+  border: 4px solid #623CEA;
+
+   font-size: 24px;
+  font-weight: bold;
+}
+
+
+.btn-flat-logo {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF !important;
+  font-size: 15px;
+  background: #00bcd4;
+  transition: .4s
+ ; ;
+ width: 150px;
+height: 30px;
+}
+
+.btn-flat-logo:hover {
+  background: #1ec7bb;
+}
+
+
+
+.btn-gradient-3d-simple {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #ffffff;
+  background-image: linear-gradient(#dda0dd 0%, #dda0dd 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  width: 70px;
+  height: 40px;
+  font-size: large:
+}
+
+.btn-gradient-3d-simple:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+
+
+
+
+ .square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #f7f7f7;
+    border-left: solid 6px #F67E7D;/*左線*/
+    color: #C98BB9;/*文字色*/
+    font-weight: bold;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    text-align: center;
+}
+.square_btn:active {
+    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+    transform: translateY(2px);
+}
+
+
+.square_btn2{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #f7f7f7;
+    border-left: solid 6px #483d8b
+;/*左線*/
+    color: #4b0082;/*文字色*/
+    font-weight: bold;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+}
+.square_btn:active {
+    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+    transform: translateY(2px);
+}
+
+.form {
+  margin: auto;
+  width: 300px;
+}
+
+
+
+.edit {
+  background-image:   url("kosumosu.jpg");
+    height: 780px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+     text-align: center;
+     padding-top: 26em;
+
+}
+
+.btn-top-radius {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 8px 10px 5px 10px;
+  text-decoration: none;
+  color: #FFA000;
+  background: #fff1da;
+  border-bottom: solid 4px #FFA000;
+  border-radius: 15px 15px 0 0;
+  transition: .4s;
+      width: 100px;
+    height: 50px;
+    font-size: large;
+    text-align: center;
+}
+
+.btn-top-radius:hover {
+  background: #ffc25c;
+  color: #FFF;
+}
+
+
+
+
+.signin {
+
+    background-image:   url("floewr2.jpg");
+    height: 780px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+     text-align: center;
+     padding-top: 26em;
+}
+
+.in {
+  height: 40px;
+ width: 300px;
+margin-top: 10px;
+font-size: 20px;
+}
+
+.btn-stitch {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;
+  color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0px 0px 0px 5px #668ad8;
+  border: dashed 1px #FFF;
+  margin-top: 1em;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+
+}
+
+.btn-stitch:hover {
+  border: dotted 1px #FFF;
+}
+
+
+.signup {
+  background-image: url("huzi.jpg");
+   height: 780px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+     text-align: center;
+     padding-top: 26em;
+
+}
