@@ -15,8 +15,6 @@ gem 'sinatra-activerecord'
 gem 'cloudinary'
 gem 'dotenv'
 gem 'bcrypt'
-gem 'sqlite3'
-
 
 group :development do
   gem 'sqlite3'
