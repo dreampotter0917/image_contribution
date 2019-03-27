@@ -2,7 +2,7 @@
 
 .top {
     text-align: center;
-    background-image: url("flower.jpg");
+    background-color: #E2DDEE;
     padding: 15em;
     height: 780px;
 }
@@ -12,13 +12,16 @@
 	color: #f5637a;
 }
 
+
+
 .left{
   text-align: left;
 }
 
 h1{
-  color: white;
-  font-size: 30px
+  color:#6F76A2;
+  font-size: 50px
+
 }
 
 h2 {
@@ -46,7 +49,8 @@ p {
 
 a {
     color: blue;
-    font-size: medium;
+    font-size: 35px;
+    margin-right: 40px;
 }
 
 ul {
@@ -54,20 +58,22 @@ ul {
   padding: 0;
 }
 
-.utikomi{
-  width: 300px;
-  height: 40px;
+.moziutikomi{
+  width: 400px;
+  height: 50px;
   color: black;
 }
 
 
 textarea{
-  width: 300px;
+  width: 400px;
   color: black;
-  height: 100px;
+  height: 120px;
 }
 
-
+.tiisame{
+  font-size: 20px;
+}
 .yoko
 {
     display: -webkit-flex;
@@ -90,14 +96,18 @@ textarea{
 }
 
 .box9 {
-    padding: 0.5em 1em;
-    color: #ff7d6e;
-    background-color: 	#F7D4BC;
-    border-top: solid 10px #F67E7D;
+    background-color: 	#dddddd;
+    display: flex;
 }
 .box9 p {
     margin: 0;
     padding: 0;
+}
+
+.waku {
+  border: 13px solid #fff
+
+
 }
 
 
@@ -140,7 +150,9 @@ textarea{
   position: relative;
   display: inline-block;
   font-weight: bold;
-  padding: 0.25em 0.5em;
+ text-align: center;
+ padding-top: 10px;
+  margin-top: 20px;
   text-decoration: none;
   color: #FFF !important;
   font-size: 15px;
@@ -148,7 +160,7 @@ textarea{
   transition: .4s
  ; ;
  width: 150px;
-height: 30px;
+height: 50px;
 }
 
 .btn-flat-logo:hover {
@@ -166,7 +178,7 @@ height: 30px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
   width: 70px;
   height: 40px;
-  font-size: large:
+  font-size: large;
 }
 
 .btn-gradient-3d-simple:active {
@@ -175,9 +187,6 @@ height: 30px;
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
   border-bottom: none;
 }
-
-
-
 
  .square_btn{
     display: inline-block;
@@ -214,13 +223,14 @@ height: 30px;
 
 .form {
   margin: auto;
-  width: 300px;
+  width: 500px;
 }
 
 
 
 .edit {
-  background-image:   url("kosumosu.jpg");
+  background-color:#E2DDEE;
+    padding: 15em;
     height: 780px;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -230,34 +240,14 @@ height: 30px;
 
 }
 
-.btn-top-radius {
-  position: relative;
-  display: inline-block;
-  font-weight: bold;
-  padding: 8px 10px 5px 10px;
-  text-decoration: none;
-  color: #FFA000;
-  background: #fff1da;
-  border-bottom: solid 4px #FFA000;
-  border-radius: 15px 15px 0 0;
-  transition: .4s;
-      width: 100px;
-    height: 50px;
-    font-size: large;
-    text-align: center;
-}
-
-.btn-top-radius:hover {
-  background: #ffc25c;
-  color: #FFF;
-}
 
 
 
 
 .signin {
 
-    background-image:   url("floewr2.jpg");
+    background-color: #E2DDEE;
+    padding: 15em;
     height: 780px;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -273,34 +263,102 @@ margin-top: 10px;
 font-size: 20px;
 }
 
-.btn-stitch {
-  display: inline-block;
-  padding: 0.5em 1em;
-  text-decoration: none;
-  background: #668ad8;
-  color: #FFF;
-  border-radius: 4px;
-  box-shadow: 0px 0px 0px 5px #668ad8;
-  border: dashed 1px #FFF;
-  margin-top: 1em;
+.insmall{
   width: 100px;
-  height: 40px;
-  font-size: 15px;
-
+  margin-top: 100px;
 }
 
-.btn-stitch:hover {
-  border: dotted 1px #FFF;
-}
 
 
 .signup {
-  background-image: url("huzi.jpg");
+  background-color: #E2DDEE;
+    padding: 15em;
    height: 780px;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
      text-align: center;
      padding-top: 26em;
+}
 
+button, input[type="submit"] {
+
+}
+
+.button{
+  display: block;
+  text-decoration: none;
+  height:50px;
+  width: 150px;
+  line-height: 37px;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+  margin: 0 auto;
+}
+
+.button.button_fix {
+  background: white !important;
+    border: none !important;
+    padding: 10px 30px !important;
+    font-size: 20px !important;;
+    text-align: center !important;
+}
+
+.btnorange{
+  color: brown;
+  background: #D3917E;
+
+}
+.btnorange:hover{
+  background: #fff;
+  color: #D3917E;
+  border:solid 1px #D3917E;
+}
+
+.btnpink{
+  background: pink;
+  color: white;
+}
+
+.btnpink:hover {
+  background: white;
+  color: pink;
+
+}
+
+.btngreen{
+  color: brown;
+  background: #B3D4B3;
+  margin-top: 20px;
+}
+.btngreen:hover{
+  background: #fff;
+  color: #B3D4B3;
+  border:solid 1px #B3D4B3;
+}
+
+.btnblue{
+  color:brown;
+  background: #84a2d4;
+  margin-top: 20px;
+}
+.btnblue:hover{
+  background: #fff;
+  color:#84a2d4;
+  border:solid 1px #84a2d4;
+}
+
+
+input [type ="submit"]{
+  color:brown;
+  background: #84a2d4;
+}
+.btnpink:hover{
+  background: #fff;
+  color:#84a2d4;
+  border:solid 1px #84a2d4;
 }

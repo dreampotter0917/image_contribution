@@ -90,7 +90,7 @@ GEM
       rack-protection (= 2.0.5)
       sinatra (= 2.0.5)
       tilt (>= 1.3, < 3)
-    sqlite3 (1.4.0)
+    sqlite3 (1.3.13)
     thread_safe (0.3.6)
     tilt (2.0.9)
     tzinfo (1.2.5)
@@ -100,7 +100,7 @@ GEM
     unf_ext (0.0.7.5)
     unicode-display_width (1.4.1)
 
-PLATFORMS
+PLATS
   ruby
 
 DEPENDENCIES
@@ -119,7 +119,7 @@ DEPENDENCIES
   sinatra
   sinatra-activerecord
   sinatra-contrib
-  sqlite3
+  sqlite3 (~> 1.3.13)
 
 BUNDLED WITH
    1.16.4

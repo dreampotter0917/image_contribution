@@ -17,7 +17,7 @@ gem 'dotenv'
 gem 'bcrypt'
 
 group :development do
-  gem 'sqlite3'
+  gem 'sqlite3', '~>1.3.13'
 end
 
 group :production do

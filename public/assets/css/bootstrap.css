@@ -249,7 +249,7 @@ th {
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
   }
-  .label {
+  . {
     border: 1px solid #000;
   }
   .table {
@@ -2485,7 +2485,7 @@ legend {
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
-label {
+ {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
@@ -2612,8 +2612,8 @@ input[type="search"] {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.radio label,
-.checkbox label {
+.radio ,
+.checkbox  {
   min-height: 20px;
   padding-left: 20px;
   margin-bottom: 0;
@@ -2660,10 +2660,10 @@ fieldset[disabled] .radio-inline,
 fieldset[disabled] .checkbox-inline {
   cursor: not-allowed;
 }
-.radio.disabled label,
-.checkbox.disabled label,
-fieldset[disabled] .radio label,
-fieldset[disabled] .checkbox label {
+.radio.disabled ,
+.checkbox.disabled ,
+fieldset[disabled] .radio ,
+fieldset[disabled] .checkbox  {
   cursor: not-allowed;
 }
 .form-control-static {
@@ -2777,15 +2777,15 @@ select[multiple].form-group-lg .form-control {
   line-height: 30px;
 }
 .has-success .help-block,
-.has-success .control-label,
+.has-success .control-,
 .has-success .radio,
 .has-success .checkbox,
 .has-success .radio-inline,
 .has-success .checkbox-inline,
-.has-success.radio label,
-.has-success.checkbox label,
-.has-success.radio-inline label,
-.has-success.checkbox-inline label {
+.has-success.radio ,
+.has-success.checkbox ,
+.has-success.radio-inline ,
+.has-success.checkbox-inline  {
   color: #3c763d;
 }
 .has-success .form-control {
@@ -2807,15 +2807,15 @@ select[multiple].form-group-lg .form-control {
   color: #3c763d;
 }
 .has-warning .help-block,
-.has-warning .control-label,
+.has-warning .control-,
 .has-warning .radio,
 .has-warning .checkbox,
 .has-warning .radio-inline,
 .has-warning .checkbox-inline,
-.has-warning.radio label,
-.has-warning.checkbox label,
-.has-warning.radio-inline label,
-.has-warning.checkbox-inline label {
+.has-warning.radio ,
+.has-warning.checkbox ,
+.has-warning.radio-inline ,
+.has-warning.checkbox-inline  {
   color: #8a6d3b;
 }
 .has-warning .form-control {
@@ -2837,15 +2837,15 @@ select[multiple].form-group-lg .form-control {
   color: #8a6d3b;
 }
 .has-error .help-block,
-.has-error .control-label,
+.has-error .control-,
 .has-error .radio,
 .has-error .checkbox,
 .has-error .radio-inline,
 .has-error .checkbox-inline,
-.has-error.radio label,
-.has-error.checkbox label,
-.has-error.radio-inline label,
-.has-error.checkbox-inline label {
+.has-error.radio ,
+.has-error.checkbox ,
+.has-error.radio-inline ,
+.has-error.checkbox-inline  {
   color: #a94442;
 }
 .has-error .form-control {
@@ -2866,10 +2866,10 @@ select[multiple].form-group-lg .form-control {
 .has-error .form-control-feedback {
   color: #a94442;
 }
-.has-feedback label ~ .form-control-feedback {
+.has-feedback  ~ .form-control-feedback {
   top: 25px;
 }
-.has-feedback label.sr-only ~ .form-control-feedback {
+.has-feedback .sr-only ~ .form-control-feedback {
   top: 0;
 }
 .help-block {
@@ -2904,7 +2904,7 @@ select[multiple].form-group-lg .form-control {
   .form-inline .input-group > .form-control {
     width: 100%;
   }
-  .form-inline .control-label {
+  .form-inline .control- {
     margin-bottom: 0;
     vertical-align: middle;
   }
@@ -2915,8 +2915,8 @@ select[multiple].form-group-lg .form-control {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  .form-inline .radio label,
-  .form-inline .checkbox label {
+  .form-inline .radio ,
+  .form-inline .checkbox  {
     padding-left: 0;
   }
   .form-inline .radio input[type="radio"],
@@ -2945,7 +2945,7 @@ select[multiple].form-group-lg .form-control {
   margin-left: -15px;
 }
 @media (min-width: 768px) {
-  .form-horizontal .control-label {
+  .form-horizontal .control- {
     padding-top: 7px;
     margin-bottom: 0;
     text-align: right;
@@ -2955,12 +2955,12 @@ select[multiple].form-group-lg .form-control {
   right: 15px;
 }
 @media (min-width: 768px) {
-  .form-horizontal .form-group-lg .control-label {
+  .form-horizontal .form-group-lg .control- {
     padding-top: 14.333333px;
   }
 }
 @media (min-width: 768px) {
-  .form-horizontal .form-group-sm .control-label {
+  .form-horizontal .form-group-sm .control- {
     padding-top: 6px;
   }
 }
@@ -4287,7 +4287,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-form .input-group > .form-control {
     width: 100%;
   }
-  .navbar-form .control-label {
+  .navbar-form .control- {
     margin-bottom: 0;
     vertical-align: middle;
   }
@@ -4298,8 +4298,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  .navbar-form .radio label,
-  .navbar-form .checkbox label {
+  .navbar-form .radio ,
+  .navbar-form .checkbox  {
     padding-left: 0;
   }
   .navbar-form .radio input[type="radio"],
@@ -4725,7 +4725,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   cursor: not-allowed;
   background-color: #fff;
 }
-.label {
+. {
   display: inline;
   padding: .2em .6em .3em;
   font-size: 75%;
@@ -4737,59 +4737,59 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   vertical-align: baseline;
   border-radius: .25em;
 }
-a.label:hover,
-a.label:focus {
+a.:hover,
+a.:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
-.label:empty {
+.:empty {
   display: none;
 }
-.btn .label {
+.btn . {
   position: relative;
   top: -1px;
 }
-.label-default {
+.-default {
   background-color: #777;
 }
-.label-default[href]:hover,
-.label-default[href]:focus {
+.-default[href]:hover,
+.-default[href]:focus {
   background-color: #5e5e5e;
 }
-.label-primary {
+.-primary {
   background-color: #337ab7;
 }
-.label-primary[href]:hover,
-.label-primary[href]:focus {
+.-primary[href]:hover,
+.-primary[href]:focus {
   background-color: #286090;
 }
-.label-success {
+.-success {
   background-color: #5cb85c;
 }
-.label-success[href]:hover,
-.label-success[href]:focus {
+.-success[href]:hover,
+.-success[href]:focus {
   background-color: #449d44;
 }
-.label-info {
+.-info {
   background-color: #5bc0de;
 }
-.label-info[href]:hover,
-.label-info[href]:focus {
+.-info[href]:hover,
+.-info[href]:focus {
   background-color: #31b0d5;
 }
-.label-warning {
+.-warning {
   background-color: #f0ad4e;
 }
-.label-warning[href]:hover,
-.label-warning[href]:focus {
+.-warning[href]:hover,
+.-warning[href]:focus {
   background-color: #ec971f;
 }
-.label-danger {
+.-danger {
   background-color: #d9534f;
 }
-.label-danger[href]:hover,
-.label-danger[href]:focus {
+.-danger[href]:hover,
+.-danger[href]:focus {
   background-color: #c9302c;
 }
 .badge {
