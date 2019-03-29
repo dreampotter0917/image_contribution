@@ -7,6 +7,9 @@ require './image_uploader.rb'
 require './models/contribution.rb'
 
 
+
+
+
 enable :sessions
 
 get '/' do
@@ -101,3 +104,19 @@ get '/signout' do
   session[:user] = nil
   redirect '/'
 end
+
+get '/articles' do
+  @articles = Articles.where(nil).page(params[:page])
+
+end
+
+
+
+require 'will_paginate'
+require 'will_paginate/active_record'
+require 'will_paginate/view_helpers/sinatra'
+
+  get '/' do
+  @pager = Post.paginate(:page => params[:page], :per_page => 12)
+  slim :blog
+  end

@@ -15,6 +15,7 @@ gem 'sinatra-activerecord'
 gem 'cloudinary'
 gem 'dotenv'
 gem 'bcrypt'
+gem 'will_paginate'
 
 group :development do
   gem 'sqlite3', '~>1.3.13'
