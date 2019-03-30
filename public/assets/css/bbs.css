@@ -444,7 +444,7 @@ form {
 .container {
   width: 150px;
   height: 65px;
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
@@ -463,15 +463,17 @@ form {
   letter-spacing: 1px;
   font-weight: 300;
   outline: none;
+  transition: all 0.3s;
+  margin: 0 auto;
+}
+
+
+.btn.btn-inside.btn-border {
   position: absolute;
-  transition: all 0.3s;
-  transition: all 0.3s;
-  transition: all 0.3s;
-  top: 360px;
+  top: 200px;
   bottom: 0;
-  left: 0;
   right: 0;
-  margin: auto;
+  left: 0;
 }
 
 .btn img {
@@ -506,6 +508,7 @@ form {
   border-radius: 5px;
   background: #ffb6c1;
   margin-left: 8px;
+  margin-top: 50px;
 }
 
 .animation {
